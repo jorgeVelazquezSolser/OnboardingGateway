@@ -28,4 +28,8 @@
     <ProjectReference Include="..\Aprecia.Domain.Gateway.SalesExecutive\Aprecia.Domain.Gateway.SalesExecutive.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
 </Project>
