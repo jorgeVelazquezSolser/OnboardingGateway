@@ -15,7 +15,7 @@ public class SalesExecutiveController : MediatoRController
     [HttpPost("GetList")]
     public async Task<IActionResult> Get(ResourceRequestBaseDto<object?> request)
     {       
-        var result = await SendWithLogId<SalesExecutiveResourceListImpl,GetSalesExecutiveResponseDto>(new GetSalesExecutiveQuery(),"CSE01");
+        var result = await SendWithLogIdList<SalesExecutiveResourceListImpl,GetSalesExecutiveResponseDto>(new GetSalesExecutiveQuery(),"CSE01");
         return StatusCode(result.StatusCode, result.ToSerializableObject());
     }
 }

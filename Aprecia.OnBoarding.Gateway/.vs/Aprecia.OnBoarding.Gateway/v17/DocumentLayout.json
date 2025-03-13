@@ -1,21 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\",
+  "WorkspaceRootPath": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|c:\\proyectos\\aprecia.onboarding.gateway\\aprecia.onboarding.gateway.api\\configurations\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|solutionrelative:aprecia.onboarding.gateway.api\\configurations\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.onboarding.gateway.api\\config\\serilog\\serilogloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|solutionrelative:aprecia.onboarding.gateway.api\\config\\serilog\\serilogloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|c:\\proyectos\\aprecia.onboarding.gateway\\aprecia.onboarding.gateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|solutionrelative:aprecia.onboarding.gateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.onboarding.gateway.api\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|solutionrelative:aprecia.onboarding.gateway.api\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC955627-91CE-499A-8CDA-74A2A84B008C}|Aprecia.Bussines.Gateway.Authorization\\Aprecia.Bussines.Gateway.Authorization.csproj|c:\\proyectos\\aprecia.onboarding.gateway\\aprecia.bussines.gateway.authorization\\querys\\getprivatekeyqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE42C207-C123-4872-B5D3-5C8EBFF7A9FA}|Aprecia.Bussines.Gateway.People\\Aprecia.Bussines.Gateway.People.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.bussines.gateway.people\\query\\validatepersonqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE42C207-C123-4872-B5D3-5C8EBFF7A9FA}|Aprecia.Bussines.Gateway.People\\Aprecia.Bussines.Gateway.People.csproj|solutionrelative:aprecia.bussines.gateway.people\\query\\validatepersonqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7E7A8F-8345-4666-A32D-7FE260A059B8}|Aprecia.DataAccess.Gateway.People\\Aprecia.DataAccess.Gateway.People.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.dataaccess.gateway.people\\storage\\peoplestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7E7A8F-8345-4666-A32D-7FE260A059B8}|Aprecia.DataAccess.Gateway.People\\Aprecia.DataAccess.Gateway.People.csproj|solutionrelative:aprecia.dataaccess.gateway.people\\storage\\peoplestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.onboarding.gateway.api\\controllers\\mediatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3188E1-18D2-4EAC-AFE5-18866531826D}|Aprecia.OnBoarding.Gateway.Api\\Aprecia.OnBoarding.Gateway.Api.csproj|solutionrelative:aprecia.onboarding.gateway.api\\controllers\\mediatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6455559F-0D1E-4BC5-8BFF-2F5F54B9D9F1}|Aprecia.DI.Gateway.Test\\Aprecia.DI.Gateway.Test.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.di.gateway.test\\extensions\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6455559F-0D1E-4BC5-8BFF-2F5F54B9D9F1}|Aprecia.DI.Gateway.Test\\Aprecia.DI.Gateway.Test.csproj|solutionrelative:aprecia.di.gateway.test\\extensions\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE86EB04-23BD-451C-AD98-076CA57A30F5}|Aprecia.Domain.Gateway.People\\Aprecia.Domain.Gateway.People.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.domain.gateway.people\\dto\\response\\validatepersonresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86EB04-23BD-451C-AD98-076CA57A30F5}|Aprecia.Domain.Gateway.People\\Aprecia.Domain.Gateway.People.csproj|solutionrelative:aprecia.domain.gateway.people\\dto\\response\\validatepersonresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC955627-91CE-499A-8CDA-74A2A84B008C}|Aprecia.Bussines.Gateway.Authorization\\Aprecia.Bussines.Gateway.Authorization.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.bussines.gateway.authorization\\querys\\getprivatekeyqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC955627-91CE-499A-8CDA-74A2A84B008C}|Aprecia.Bussines.Gateway.Authorization\\Aprecia.Bussines.Gateway.Authorization.csproj|solutionrelative:aprecia.bussines.gateway.authorization\\querys\\getprivatekeyqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D876B47-F311-4B93-B631-AFC942425504}|Aprecia.DataAccess.Gateway.Authorization\\Aprecia.DataAccess.Gateway.Authorization.csproj|c:\\proyectos\\aprecia.onboarding.gateway\\aprecia.dataaccess.gateway.authorization\\storage\\authorizationstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D876B47-F311-4B93-B631-AFC942425504}|Aprecia.DataAccess.Gateway.Authorization\\Aprecia.DataAccess.Gateway.Authorization.csproj|c:\\proyectos\\solseronboardinggateway\\onboardinggateway\\aprecia.onboarding.gateway\\aprecia.dataaccess.gateway.authorization\\storage\\authorizationstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D876B47-F311-4B93-B631-AFC942425504}|Aprecia.DataAccess.Gateway.Authorization\\Aprecia.DataAccess.Gateway.Authorization.csproj|solutionrelative:aprecia.dataaccess.gateway.authorization\\storage\\authorizationstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,59 +45,145 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 228,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 265,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MediatoRController.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Controllers\\MediatoRController.cs",
+              "RelativeDocumentMoniker": "Aprecia.OnBoarding.Gateway.Api\\Controllers\\MediatoRController.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Controllers\\MediatoRController.cs",
+              "RelativeToolTip": "Aprecia.OnBoarding.Gateway.Api\\Controllers\\MediatoRController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwE0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:37:22.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartupExtension.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DI.Gateway.Test\\Extensions\\StartupExtension.cs",
+              "RelativeDocumentMoniker": "Aprecia.DI.Gateway.Test\\Extensions\\StartupExtension.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DI.Gateway.Test\\Extensions\\StartupExtension.cs",
+              "RelativeToolTip": "Aprecia.DI.Gateway.Test\\Extensions\\StartupExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:29:41.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PeopleStorage.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.People\\Storage\\PeopleStorage.cs",
+              "RelativeDocumentMoniker": "Aprecia.DataAccess.Gateway.People\\Storage\\PeopleStorage.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.People\\Storage\\PeopleStorage.cs",
+              "RelativeToolTip": "Aprecia.DataAccess.Gateway.People\\Storage\\PeopleStorage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:19:44.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ValidatePersonQueryHandler.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.People\\Query\\ValidatePersonQueryHandler.cs",
+              "RelativeDocumentMoniker": "Aprecia.Bussines.Gateway.People\\Query\\ValidatePersonQueryHandler.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.People\\Query\\ValidatePersonQueryHandler.cs",
+              "RelativeToolTip": "Aprecia.Bussines.Gateway.People\\Query\\ValidatePersonQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:15:02.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SerilogLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Config\\Serilog\\SerilogLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Aprecia.OnBoarding.Gateway.Api\\Config\\Serilog\\SerilogLoggingMiddleware.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Config\\Serilog\\SerilogLoggingMiddleware.cs",
+              "RelativeToolTip": "Aprecia.OnBoarding.Gateway.Api\\Config\\Serilog\\SerilogLoggingMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:56:49.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "Aprecia.OnBoarding.Gateway.Api\\Controllers\\PeopleController.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "Aprecia.OnBoarding.Gateway.Api\\Controllers\\PeopleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:07:50.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GetPrivateKeyQueryHandler.cs",
-              "DocumentMoniker": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
               "RelativeDocumentMoniker": "Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
-              "ToolTip": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
               "RelativeToolTip": "Aprecia.Bussines.Gateway.Authorization\\Querys\\GetPrivateKeyQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T21:54:35.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "AuthorizationStorage.cs",
-              "DocumentMoniker": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
               "RelativeDocumentMoniker": "Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
-              "ToolTip": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
               "RelativeToolTip": "Aprecia.DataAccess.Gateway.Authorization\\Storage\\AuthorizationStorage.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwCQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T21:54:09.957Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e1e33d78-a7ff-4917-983d-ae04e2e0ce44",
+        "Display": 0,
+        "X": 364,
+        "Y": 664,
+        "Width": 1907,
+        "Height": 957,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Authorization.cs",
-              "DocumentMoniker": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Configurations\\Authorization.cs",
-              "RelativeDocumentMoniker": "Aprecia.OnBoarding.Gateway.Api\\Configurations\\Authorization.cs",
-              "ToolTip": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\Configurations\\Authorization.cs",
-              "RelativeToolTip": "Aprecia.OnBoarding.Gateway.Api\\Configurations\\Authorization.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ValidatePersonResponseDto.cs",
+              "DocumentMoniker": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Domain.Gateway.People\\Dto\\Response\\ValidatePersonResponseDto.cs",
+              "RelativeDocumentMoniker": "Aprecia.Domain.Gateway.People\\Dto\\Response\\ValidatePersonResponseDto.cs",
+              "ToolTip": "C:\\proyectos\\SolserOnboardingGateway\\OnboardingGateway\\Aprecia.OnBoarding.Gateway\\Aprecia.Domain.Gateway.People\\Dto\\Response\\ValidatePersonResponseDto.cs",
+              "RelativeToolTip": "Aprecia.Domain.Gateway.People\\Dto\\Response\\ValidatePersonResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:29:36.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Aprecia.OnBoarding.Gateway.Api\\appsettings.json",
-              "ToolTip": "C:\\proyectos\\Aprecia.OnBoarding.Gateway\\Aprecia.OnBoarding.Gateway.Api\\appsettings.json",
-              "RelativeToolTip": "Aprecia.OnBoarding.Gateway.Api\\appsettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T21:39:48.9Z",
+              "WhenOpened": "2025-03-13T19:55:41.382Z",
               "EditorCaption": ""
             }
           ]

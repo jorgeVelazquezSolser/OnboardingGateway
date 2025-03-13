@@ -26,7 +26,7 @@ namespace Aprecia.OnBoarding.Gateway.Api.Controllers
             }
         }
 
-        protected async Task<T> SendWithLogId<T,Z>(IRequest<T> request,string codigoController) where T : ResourceList<Z>, new()
+        protected async Task<T> SendWithLogIdList<T,Z>(IRequest<T> request,string codigoController) where T : ResourceList<Z>, new()
         {
             try
             {
@@ -54,6 +54,37 @@ namespace Aprecia.OnBoarding.Gateway.Api.Controllers
                 return resultError;
             }
         }
+
+        protected async Task<T> SendWithLogId<T, Z>(IRequest<T> request, string codigoController) where T : Resource<Z>, new()
+        {
+            try
+            {
+                var result = await Mediator.Send(request);
+                AssignLogIdIfExists(result);
+                if (result.StatusCode == 500 && result.Exception != null)
+                {
+                    HttpContext.Items["Exception"] = result.Exception;
+                }
+                return result;
+            }
+            catch (Exception ex)
+            {
+                HttpContext.Items["Exception"] = ex;
+                var resultError = Activator.CreateInstance<T>();
+                resultError = DataErrorGeneric.Error<T, Z>(
+                    ex,
+                    "Error inesperado, contacte al administrador",
+                    codigoController,
+                    3,
+                    "Error inesperado, revise los logs"
+                );
+
+                AssignLogIdIfExists(resultError);
+                return resultError;
+            }
+        }
+
+
         private void AssignLogIdIfExists<T>(T result)
         {
             if (result == null) return;

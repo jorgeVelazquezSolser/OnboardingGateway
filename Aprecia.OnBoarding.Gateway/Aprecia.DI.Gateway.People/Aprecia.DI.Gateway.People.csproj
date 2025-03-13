@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aprecia.Bussines.Gateway.People\Aprecia.Bussines.Gateway.People.csproj" />
+    <ProjectReference Include="..\Aprecia.DataAccess.Gateway.People\Aprecia.DataAccess.Gateway.People.csproj" />
+  </ItemGroup>
+
+</Project>

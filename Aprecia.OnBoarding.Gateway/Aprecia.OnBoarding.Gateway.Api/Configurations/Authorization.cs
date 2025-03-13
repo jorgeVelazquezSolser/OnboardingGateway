@@ -9,8 +9,6 @@ using System.Text;
 using Serilog;
 using Aprecia.Domain.Gateway.Shared.Media;
 using Aprecia.Domain.Gateway.Shared.Helper;
-using Aprecia.Domain.Gateway.SalesExecutive.Media;
-using Aprecia.Domain.Gateway.SalesExecutive.Dtos;
 using Aprecia.Domain.Gateway.Authorization.Media;
 using Aprecia.Domain.Gateway.Authorization.Dtos;
 
@@ -21,7 +19,7 @@ public class Authorization:Attribute, IAuthorizationFilter
 {
     public void OnAuthorization(AuthorizationFilterContext context)
     {
-        var loggerTxt = Log.ForContext("SourceContext", "AuthorizationLogs");
+        
 
         if (!context.HttpContext.Items.ContainsKey("LogIdBusqueda"))
         {
@@ -70,8 +68,6 @@ public class Authorization:Attribute, IAuthorizationFilter
 
             var certFromHeaders = new X509Certificate2(pfxBytes, certPassword,
                 X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.PersistKeySet | X509KeyStorageFlags.Exportable);
-            
-            loggerTxt.Information("📄 Resultado certFromHeaders: {@Resultado}", certFromHeaders);
 
             if (!certFromHeaders.HasPrivateKey)
             {
@@ -96,8 +92,7 @@ public class Authorization:Attribute, IAuthorizationFilter
             }
 
             string thumbprint = certFromHeaders.Thumbprint;
-
-            loggerTxt.Information("🔑 Certificado Thumbprint: {Thumbprint}", thumbprint);
+           
             // aqui serilog info de  thumbprint
             var resultadoMediatR = MediatorAuthentication.SendWithLogId<AuthorizationResourceImpl, ParamResponseDto>(context.HttpContext, new GetPrivateKeyQuery(thumbprint),"AMDL01").Result;
             // serilog de  resultadoMediatR
@@ -113,8 +108,6 @@ public class Authorization:Attribute, IAuthorizationFilter
                 return;
             }
 
-            loggerTxt.Information("📄 Resultado Mediator: {@Resultado}", resultadoMediatR);
-
             if (resultadoMediatR.StatusCode == 500) 
             {
                 context.HttpContext.Items["Exception"] = resultadoMediatR.Exception;
@@ -124,18 +117,13 @@ public class Authorization:Attribute, IAuthorizationFilter
 
             }
 
-            using RSA rsaPfx = certFromHeaders.GetRSAPrivateKey();
-
-            loggerTxt.Information("📄 Resultado rsaPfx: {@Resultado}", rsaPfx);
+            using RSA rsaPfx = certFromHeaders.GetRSAPrivateKey();            
 
             if (rsaPfx == null)
             {
                 throw new Exception("No se pudo obtener la clave privada del certificado.");
             }
             using RSA rsaBase64 = LoadPrivateKeyFromBase64(resultadoMediatR.Data.Value);
-
-            loggerTxt.Information("📄 Resultado rsaBase64: {@Resultado}", rsaBase64);
-
 
             if (!ValidatePrivateKeys(rsaPfx, rsaBase64))
             {

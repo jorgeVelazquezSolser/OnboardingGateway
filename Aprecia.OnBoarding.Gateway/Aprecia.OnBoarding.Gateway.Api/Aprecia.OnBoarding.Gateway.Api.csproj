@@ -21,8 +21,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Aprecia.Bussines.Gateway.Authorization\Aprecia.Bussines.Gateway.Authorization.csproj" />
     <ProjectReference Include="..\Aprecia.DI.Gateway.Authorization\Aprecia.DI.Gateway.Authorization.csproj" />
+    <ProjectReference Include="..\Aprecia.DI.Gateway.People\Aprecia.DI.Gateway.People.csproj" />
     <ProjectReference Include="..\Aprecia.DI.Gateway.SalesExecutive\Aprecia.DI.Gateway.SalesExecutive.csproj" />
     <ProjectReference Include="..\Aprecia.DI.Gateway.Test\Aprecia.DI.Gateway.Test.csproj" />
+    <ProjectReference Include="..\Aprecia.Domain.Gateway.People\Aprecia.Domain.Gateway.People.csproj" />
+    <ProjectReference Include="..\Aprecia.Domain.Gateway.SalesExecutive\Aprecia.Domain.Gateway.SalesExecutive.csproj" />
   </ItemGroup>
 
 </Project>

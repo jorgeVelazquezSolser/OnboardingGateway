@@ -15,10 +15,10 @@ public class SerilogLoggingMiddleware
     public async Task Invoke(HttpContext context)
     {
 
-        if (!context.Request.Path.StartsWithSegments(ConstSerilogMiddleware.Sales_Executive))
+        if (!ConstSerilogMiddleware.ALLOWED_PATHS.Any(path => context.Request.Path.StartsWithSegments(path)))
         {
             await _next(context);
-            return; 
+            return;
         }
         var logIdBusqueda = Guid.NewGuid();
         context.Items["LogIdBusqueda"] = logIdBusqueda;
