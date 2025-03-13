@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -10,8 +10,14 @@ obj/
 *.exe
 *.dll
 *.pdb
-
+*.vsidx
 # Ignorar carpetas Debug y Release
 Debug/
 Release/
 
+# Ignorar configuración de Visual Studio específica del proyecto
+.vs/Aprecia.Onbording.Gateway/
+
+# Ignorar la carpeta logs en Aprecia.OnBoarding.Gateway.Api
+# Ignorar la carpeta Logs en Aprecia.OnBoarding.Gateway.Api
+Aprecia.OnBoarding.Gateway.Api/Logs/
