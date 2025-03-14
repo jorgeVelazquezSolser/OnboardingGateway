@@ -4,6 +4,7 @@ public class ValidatePersonResponseDto
 {
     public string Curp { get; set; }
     public string Nombre { get; set; }
+    public bool Existe { get; set; }
     public bool TieneCreditos { get; set; }
     public double PorcentajeCoincidencia { get; set; }
 

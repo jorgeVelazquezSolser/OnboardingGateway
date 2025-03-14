@@ -17,10 +17,11 @@ public class ValidatePersonQueryHandler : RequestHandlerBase, IRequestHandler<Va
         ValidatePersonResponseDto validate = new ValidatePersonResponseDto()
         {
             Nombre = $"{request.validate.PrimerNombre} " +
-            $"{(string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.PrimerApellido : request.validate.SegundoNombre)} " +
-            $"{(!string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.PrimerApellido : request.validate.SegundoApellido)} " +
-            $"{(!string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.SegundoApellido : string.Empty)}",
+                    $"{(string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.PrimerApellido : request.validate.SegundoNombre)} " +
+                    $"{(!string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.PrimerApellido : request.validate.SegundoApellido)} " +
+                    $"{(!string.IsNullOrEmpty(request.validate.SegundoNombre) ? request.validate.SegundoApellido : string.Empty)}",
             Curp = request.validate.Curp,
+            Existe = false,
             TieneCreditos = false,
             PorcentajeCoincidencia = 0
         };
@@ -35,6 +36,7 @@ public class ValidatePersonQueryHandler : RequestHandlerBase, IRequestHandler<Va
             }
 
             validate.TieneCreditos = result.Any(x => x.cuenta_creditos_activos > 0);
+            validate.Existe = true;
 
             double maxCoincidencia = result.Max(x => CalcularPorcentajeCoincidencia(validate.Nombre, x.nombre));
             validate.PorcentajeCoincidencia = maxCoincidencia;
